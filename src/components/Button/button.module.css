@@ -1,0 +1,12 @@
+
+.container{
+  padding: 20px;
+  border: none;
+  background-color: #2C3333;
+  color: azure;
+  cursor: pointer;
+  border-radius: 15px;
+  width: max-content;
+  font-weight: bold;
+  font-size: medium;
+}

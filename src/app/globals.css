@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding:  0;
+  margin: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.theme{
+  transition: 1.5s all ease;
+}
+
+
+.light{
+  color: #ffff;
+  background-image: linear-gradient(to right bottom,  #2d5959, #2a6263, #266c6e, #207679, #328284, #418e8f, #509b9a, #71ada9, #90bfba, #aed1cb, #cbe4de);
+}
+
+.dark{
+  background-color: #111;
+  color: #bbb;
+}
+
+.container{
+  max-width: 1366px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 60px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,59 @@
+
+.title{
+    font-size: 28px;
+    margin-bottom: 40px ;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.imgContainer{
+    flex: 1;
+    height: 450px;
+    position: relative;
+}
+
+
+.image{
+    
+    object-fit: cover;
+    animation: move 2s infinite ease alternate;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(-25px);
+    }
+    to{
+        transform: translateY(0px) scale(1.09);
+    }
+}
+
+.form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.input,
+.textArea {
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid azure;
+  border-radius: 15px;
+  color: azure;
+  font-size: 15px;
+  font-weight: medium;
+}
+
+.input::-webkit-input-placeholder,
+.textArea::-webkit-input-placeholder{
+  color: azure;
+  font-size: 15px;
+}
