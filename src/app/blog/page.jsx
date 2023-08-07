@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const apiUrl = process.env.NEXTAUTH_URL;
+const apiUrl = process.env.BLOGPOSTS_URL;
 
  
 //FETCHING DATA
