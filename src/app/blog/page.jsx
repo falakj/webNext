@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const apiUrl = process.env.VERCEL_URL;
+const apiUrl = process.env.NEXT_PUBLIC_VERCEL_URL;
 
  
 //FETCHING DATA
