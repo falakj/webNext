@@ -8,7 +8,7 @@ const apiUrl = process.env.NEXTAUTH_URL;
  
 //FETCHING DATA
 async function getData() {
-  const res = await fetch(`${apiUrl}/api/posts/${id}`, {
+  const res = await fetch(`${apiUrl}/api/posts`, {
     method: "GET",
     headers: {
       accept: "application/json",
