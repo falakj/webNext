@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Image from 'next/image';
 import { notFound } from "next/navigation";
 
-const apiUrl = process.env.VERCEL_URL;
+const apiUrl = process.env.NEXT_PUBLIC_VERCEL_URL;
 
 
 async function getData(id) {
