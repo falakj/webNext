@@ -3,9 +3,12 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+const apiUrl = process.env.NEXTAUTH_URL;
+
+ 
 //FETCHING DATA
 async function getData() {
-  const res = await fetch("/api/posts", {
+  const res = await fetch(`${apiUrl}/api/posts/${id}`, {
     method: "GET",
     headers: {
       accept: "application/json",
