@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 
 
 async function getData(id) {
-  const res = await fetch(`http://localhost:3000/api/posts/${id}`, {
+  const res = await fetch(`/api/posts/${id}`, {
     method: "GET",
     headers: {
       accept: "application/json",
