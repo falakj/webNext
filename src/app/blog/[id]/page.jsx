@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Image from 'next/image';
 import { notFound } from "next/navigation";
 
-const apiUrl = process.env.NEXTAUTH_URL;
+const apiUrl = process.env.BLOGPOSTS_URL;
 
 
 async function getData(id) {
